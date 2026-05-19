@@ -44,6 +44,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Killbots.
 
+%description -l pl.UTF-8
+Gra Killbots.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
